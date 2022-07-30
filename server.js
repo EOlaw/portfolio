@@ -1,5 +1,6 @@
 //grab all the things we need
 const express = require('express');
+const app = express();
 
 
 //set the view engine to ejs
@@ -7,7 +8,6 @@ app.set('view engine', 'ejs');
 
 
 //configure the app
-const app = express();
 app.use(express.json());
 
 //Connection to Mongoose

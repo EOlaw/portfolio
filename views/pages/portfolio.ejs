@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/css'); %>
+</head>
+<body class="container">
+
+<header>
+  <%- include('../partials/header'); %>
+</header>
+
+<main>
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+    <!-- Menu icon to open sidebar -->
+    <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+    <!-- Header -->
+    <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+        <h1 class="w3-jumbo"><b>Emmanuel Oyemosu</b></h1>
+        <p>Mathematician and Web Designer.</p>
+        <img src="../img/IMG_6499.JPG" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+        <img src="../img/IMG_6499.JPG" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+        <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+            <a href="/models/files/Emmanuel_Oyemosu_Resume.pdf" download="EO_Resume"><i class="fa fa-download"></i> Download Resume</a>
+        </button>
+    </header>
+
+    <!-- Portfolio Section -->
+    <div class="w3-padding-32 w3-content" id="portfolio">
+        <h2 class="w3-text-black">My Portfolio</h2>
+        <hr class="w3-opacity">
+
+        <!-- Grid for photos -->
+        <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half">
+            <img src="/models/img/IMG_8029.jpeg" style="width:100%">
+            <img src="/models/img/JSA Certification.png" style="width:100%">
+            <img src="/models/img/IMG_8029.jpeg" style="width:100%">
+        </div>
+
+        <div class="w3-half">
+            <img src="/models/img/IMG_8029.jpeg" style="width:100%">
+            <img src="/models/img/JSA Certification.png" style="width:100%">
+            <img src="/models/img/IMG_8029.jpeg" style="width:100%">
+            <img src="/models/img/JSA Certification.png" style="width:100%">
+        </div>
+        <!-- End photo grid -->
+        </div>
+    <!-- End Portfolio Section -->
+    </div>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-black w3-padding-32" id="about">
+        <h2>About</h2>
+        <hr class="w3-opacity">
+        <p>I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. 
+            I believe that a person should work on developing their professional skills and learning new things all the time.
+            An undergraduate Mathematics student seriously looking to get placement in a reliable company 
+            where I can fully showcase my potential as an asset, towards mutual benefits for both the corporate 
+            entity and I inclusive.</p>
+        <h3 class="w3-padding-16">Core Competencies Skills</h3>
+        <p class="w3-wide">Mathematics</p>
+        <div class="w3-text-black">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
+        </div>
+        <p class="w3-wide">Web Design</p>
+        <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+        </div>
+        <p class="w3-wide">Programming in Engineering Field</p>
+        <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+        </div>
+        <p class="w3-wide">Technical & Business Writing</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+        </div><br>
+
+        <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">14+</span><br>
+            Partners
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">55+</span><br>
+            Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">89+</span><br>
+            Happy Clients
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">150+</span><br>
+            Meetings
+        </div>
+        </div>
+
+        <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+            <a href="/models/files/Emmanuel_Oyemosu_Resume.pdf" download="EO_Resume"><i class="fa fa-download"></i> Download Resume</a>
+        </button>
+
+        <!-- Testimonials -->
+        <h3 class="w3-padding-24">My Reputation</h3>
+        <img src="/models/img/IMG_1764.JPG" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+        <p><span class="w3-large w3-text-black w3-margin-right">Chandler Bing.</span> Web Designer.</p>
+        <p>Jane Doe is just awesome. I am so happy to have met her!</p><br>
+    
+        <img src="/models/img/IMG_6499.JPG" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+        <p><span class="w3-large w3-text-black w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+        <p>Jane Doe saved us from a web disaster.</p><br>
+        
+        <img src="/models/img/IMG_6773.JPG" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+        <p><span class="w3-large w3-text-black w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+        <p>No one is better than Jane Doe.</p><br>
+        
+        <!-- Grid for pricing tables -->
+        <h3 class="w3-padding-16">My Price</h3>
+        <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+            <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+            <li class="w3-padding-16">Web Design</li>
+            <li class="w3-padding-16">Photography</li>
+            <li class="w3-padding-16">5GB Storage</li>
+            <li class="w3-padding-16">Mail Support</li>
+            <li class="w3-padding-16">
+                <h2>$ 10</h2>
+                <span class="w3-opacity">per month</span>
+            </li>
+            <li class="w3-light-grey w3-padding-24">
+                <button class="w3-button w3-white w3-padding-large w3-hover-black"><a href="/views/basic_signup.html">Sign Up</a></button>
+            </li>
+            </ul>
+        </div>
+
+        <div class="w3-half">
+            <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+            <li class="w3-black w3-xlarge w3-padding-32">Pro</li>
+            <li class="w3-padding-16">Web Design</li>
+            <li class="w3-padding-16">Photography</li>
+            <li class="w3-padding-16">50GB Storage</li>
+            <li class="w3-padding-16">Endless Support</li>
+            <li class="w3-padding-16">
+                <h2>$ 25</h2>
+                <span class="w3-opacity">per month</span>
+            </li>
+            <li class="w3-light-grey w3-padding-24">
+                <button class="w3-button w3-white w3-padding-large w3-hover-black"><a href="/views/pro_signup.html">Sign Up</a></button>
+            </li>
+            </ul>
+        </div>
+        <!-- End Grid/Pricing tables -->
+        </div>
+        
+    <!-- End About Section -->
+    </div>
+
+    <!-- Contact Section -->
+    <div class="w3-padding-32 w3-content w3-text-black" id="contact" style="margin-bottom:64px">
+        <h2>Contact Me</h2>
+        <hr class="w3-opacity">
+
+        <div class="w3-section">
+        <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Houston, Texas, US</p>
+        <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: <a href="tel:3463839529" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">+1 346-383-9529</a></p>
+        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: <a href="mailto:emmanuel.ao@outlook.com"> Emmanuel.ao@outlook.com </a></p>
+        <p><i class="fa fa-linkedin-square fa-fw w3-xxlarge w3-margin-right"></i>LinkedIn: <a href="https://www.linkedin.com/in/emmanuel-oyemosu/">LinkedIn</a></p>
+        </div>
+        
+        <!-- Image of location/map -->
+        <img src="/models/img/Houston-Map-Feature.jpeg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
+    
+        <p>Lets get in touch. Send me a message:</p>
+        <form action="/action_page.php" class="needs-validation" target="_blank" novalidate>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+        <p>
+            <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+            <i class="fa fa-paper-plane"><a href="/send_msg.html">SEND MESSAGE</a></i> 
+            </button>
+        </p>
+        </form>
+    <!-- End Contact Section -->
+    </div> 
+</main>
+
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
+
+<script>
+    // Open and close sidebar
+    function openNav() {
+    document.getElementById("mySidebar").style.width = "60%";
+    document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function closeNav() {
+    document.getElementById("mySidebar").style.display = "none";
+    }
+</script>
+
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+</script>
+
+</body>
+</html>
