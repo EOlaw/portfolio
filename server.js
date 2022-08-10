@@ -9,6 +9,8 @@ app.set('view engine', 'ejs');
 
 //configure the app
 app.use(express.json());
+app.use(express.static('public'))
+app.use('/img', express.static(__dirname + 'public/img'))
 
 //Connection to Mongoose
 const mongoose = require('mongoose');
